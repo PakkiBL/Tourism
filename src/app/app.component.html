@@ -1,12 +1,48 @@
+<!-- <header>
+    <nav>
+        <ul>
+            <li><a routerLink="/home" fragment="home">Home</a></li>
+            <li><a routerLink="/about" fragment="about">About</a></li>
+            <li><a routerLink="/tours" fragment="tours">Tours</a></li>
+            <li><a routerLink="/testimonials" fragment="testimonials">Testimonials</a></li>
+            <li><a routerLink="/contact" fragment="contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="home">
+    <h1>Welcome to Travel Explorer</h1>
+</section>
+
+<section id="about">
+    <h2>About Us</h2>
+</section>
+
+<section id="tours">
+    <h2>Tour Packages</h2>
+</section>
+
+<section id="testimonials">
+    <h2>Testimonials</h2>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+</section>
+
+<footer>
+    <p>&copy; 2025 Simple Website. All rights reserved.</p>
+</footer> -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travel Website</title>
+    <title>Travel Explorer</title>
     <link rel="stylesheet" href="app.component.css">
 </head>
 <body>
+
     <header>
         <nav>
             <ul>
@@ -19,25 +55,37 @@
         </nav>
     </header>
 
-    <section id="home">
-        <h1>Welcome to Travel Explorer</h1>
+    <section id="home" class="hero">
+        <div class="overlay">
+            <h1>Welcome to Travel Explorer</h1>
+            <p>Your gateway to unforgettable adventures.</p>
+            <a href="#tours" class="cta-button">Explore Tours</a>
+        </div>
     </section>
 
     <section id="about">
         <h2>About Us</h2>
+        <p>We provide the best travel experiences worldwide. Explore our amazing packages today.</p>
     </section>
 
     <section id="tours">
-        <h2>Tour Packages</h2>
+        <h2>Tour Packages</h2><br>
+        <p>Choose from a variety of exciting tours across the globe.</p>
     </section>
 
     <section id="testimonials">
-        <h2>Testimonials</h2>
+        <h2>Testimonials</h2><br>
+        <p>See what our happy travelers have to say about their experiences.</p>
     </section>
 
     <section id="contact">
-        <h2>Contact Us</h2>
+        <h2>Contact Us</h2><br>
+        <p>Get in touch with us for personalized travel plans.</p>
     </section>
+
+    <footer>
+        <p>&copy; 2025 Travel Explorer. All rights reserved.</p>
+    </footer>
 
     <script src="app.component.ts"></script>
 </body>
